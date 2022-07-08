@@ -1,0 +1,11 @@
+version: "3"
+services:
+  db:
+    image: "postgres:12"
+    container_name: "sirka_db"
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: dev
+      POSTGRES_DB: test_case
