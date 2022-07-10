@@ -1,5 +1,10 @@
+# .env
+app.env
+
+# .idea
 /.idea/.gitignore
 /.idea/modules.xml
 /.idea/sirka-test.iml
 /.idea/vcs.xml
 /.idea/dataSources.xml
+/.idea/sqldialects.xml
