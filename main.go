@@ -7,13 +7,14 @@ import (
 	"github.com/risangpratama13/sirka-test/repository"
 	"github.com/risangpratama13/sirka-test/service"
 	"github.com/risangpratama13/sirka-test/util"
+	"log"
 )
 
 func main() {
 	r := gin.Default()
 	config, err := util.LoadConfig(".")
 	if err != nil {
-		panic(err)
+		log.Fatal("Config file is not found: ", err)
 	}
 
 	db := app.NewDB(config)
