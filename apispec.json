@@ -9,6 +9,10 @@
     {
       "url": "http://localhost:8080/MyWeb",
       "description": "Local Server"
+    },
+    {
+      "url": "https://sirka-test.herokuapp.com/MyWeb",
+      "description": "Prod Server"
     }
   ],
   "paths": {
